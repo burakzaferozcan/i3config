@@ -52,7 +52,7 @@ bindsym $mod+Shift+q kill
 
 # start dmenu (a program launcher)
 # bindsym $mod+d exec --no-startup-id dmenu_run
-bindsym $mod+d exec --no-startup-id rofi -show drun
+bindsym $mod+d exec --no-startup-id rofi -show drun -theme purple
 
 
 # A more modern dmenu replacement is rofi:
@@ -194,10 +194,10 @@ bar {
         	separator  #666666
 
         # active workspace
-        focused_workspace  #000000 #9b59b6 #ffffff
+        focused_workspace  #000000 #633461 #ffffff
 
         # passive workspace
-        inactive_workspace #9b59b6 #000000 #ffffff
+        inactive_workspace #633461 #000000 #ffffff
     }
 }
 
@@ -205,7 +205,6 @@ exec --no-startup-id feh --bg-scale /home/ozcan/Resimler/bg.jpg
 
 bindsym Print exec flameshot gui
 
-client.focused      #000000 #9b59b6 #ffffff
+client.focused      #000000 #633461 #ffffff
 
-# Unfocused pencere kenar rengi
-client.unfocused    #9b59b6 #000000 #ffffff
+client.unfocused    #633461 #000000 #ffffff
