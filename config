@@ -187,6 +187,18 @@ bindsym $mod+r mode "resize"
 bar {
 	position top
         status_command i3status
+  	
+	colors {
+        	background #000000
+        	statusline #ffffff
+        	separator  #666666
+
+        # active workspace
+        focused_workspace  #000000 #9b59b6 #ffffff
+
+        # passive workspace
+        inactive_workspace #9b59b6 #000000 #ffffff
+    }
 }
 
 exec --no-startup-id feh --bg-scale /home/ozcan/Resimler/bg.jpg
